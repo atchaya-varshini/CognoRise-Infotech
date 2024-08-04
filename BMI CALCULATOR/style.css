@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(150, 191, 207);
+}
+
+span{
+    color:red;
+}
+h1{
+    text-align: center;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+p{
+    text-align: center;
+    color: rgb(238, 234, 228);
+    font-family:'Comic Sans Ms',sans-serif;
+}
+.container{
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 25px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow:0px 20px 30px -10px rgb(60, 76, 86);
+}
+input{
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+button{
+    color: white;
+    padding: 10px;
+    border: 2px solid rgb(21, 70, 87);
+    background: rgb(6, 155, 229);
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+    cursor:pointer;
+    font-size: 14px;
+}
+
+#output{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(232, 229, 224);
+    font-size: 20px;
+}
+
+
